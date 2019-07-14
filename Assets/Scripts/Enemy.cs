@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        camera = 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         speed = Random.Range(minSpeed, maxSpeed);
